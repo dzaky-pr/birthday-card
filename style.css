@@ -1,0 +1,87 @@
+* {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+body {
+    background-color: #e8344e;
+}
+
+.envelope {
+    width: 200px;
+    height: 200px;
+
+    background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+    background-size: cover;
+    background-position: center;
+
+    margin: 100px auto 40px auto;
+    cursor: pointer;
+}
+
+.envelope-msg {
+    color: white;
+    text-align: center;
+}
+
+.letter-closed {
+    display: block;
+}
+
+.letter-open {
+    display: none;
+}
+
+.rtanny {
+    height: 200px;
+    width: 200px;
+    background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/global/SpartaIcon8.gif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    border: 5px solid white;
+    background-color: white;
+    margin: 75px auto 20px auto;
+    box-shadow: 0 0 10px 0 white;
+}
+
+.letter-title {
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.messagebox {
+    background-color: ivory;
+    width: 400px;
+    margin: 8px auto 0 auto;
+    padding: 22px;
+    color: brown;
+}
+
+@media screen and (max-width: 760px) {
+    .messagebox {
+        width: 300px;
+        padding: 14px;
+    }
+
+    .rtanny {
+        width: 140px;
+        height: 140px;
+        margin: 45px auto 20px auto;
+    }
+
+    .letter-title {
+        font-size: 22px;
+    }
+
+    .envelope {
+        width: 150px;
+        height: 150px;
+        margin: 180px auto 40px auto;
+    }
+
+    .envelope-msg {
+        font-size: 18px;
+    }
+}
