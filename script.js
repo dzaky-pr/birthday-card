@@ -4,6 +4,5 @@ function open_letter() {
 }
 
 function on_click_rtanny() {
-    // alert('Yay! you found me!');
     window.location.href='https://www.youtube.com/watch?v=1dcadBNZT00';
 }
